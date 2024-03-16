@@ -23,12 +23,12 @@
     "url": "^0.11.3",
     "vite-plugin-compression": "^0.5.1",
     "vite-plugin-html": "^3.2.2",
-    "vite-plugin-pwa": "^0.19.4"
+    "vite-plugin-pwa": "^0.19.4",
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21"
   },
   "devDependencies": {
     "@types/postcss-import": "^14.0.3",
-    "@types/react": "^18.2.64",
-    "@types/react-dom": "^18.2.21",
     "@typescript-eslint/eslint-plugin": "^7.1.1",
     "@typescript-eslint/parser": "^7.1.1",
     "@vitejs/plugin-react": "^4.2.1",
