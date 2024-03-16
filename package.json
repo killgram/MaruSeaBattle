@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "CI=false && tsc && vite build",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -26,7 +27,7 @@
   },
   "devDependencies": {
     "@types/postcss-import": "^14.0.3",
-    "@types/react": "^18.2.64",
+    "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.21",
     "@typescript-eslint/eslint-plugin": "^7.1.1",
     "@typescript-eslint/parser": "^7.1.1",
